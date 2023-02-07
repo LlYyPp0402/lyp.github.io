@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T08:04:41.477Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="9Xr9eRs3ukPlbtrDlDGs" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T08:58:11.020Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="F7Ne92vT9-DXv2lQGh0l" version="20.8.13" type="github">
   <diagram name="第 1 页" id="avZ2fyNiAIYyVJhtNdak">
-    <mxGraphModel dx="690" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#B9E0A5" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,18 +39,18 @@
           <mxGeometry x="60" y="80" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lABieaH--rDoVOybhZKd-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFD966;" parent="1" vertex="1">
-          <mxGeometry x="100" y="120" width="10" height="160" as="geometry" />
+          <mxGeometry x="100" y="118" width="10" height="187" as="geometry" />
         </mxCell>
         <mxCell id="lABieaH--rDoVOybhZKd-9" value="&lt;font color=&quot;#000000&quot;&gt;openweChat&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="220" y="80" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lABieaH--rDoVOybhZKd-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFD966;" parent="1" vertex="1">
-          <mxGeometry x="260" y="120" width="10" height="220" as="geometry" />
+          <mxGeometry x="260" y="119" width="10" height="246" as="geometry" />
         </mxCell>
-        <mxCell id="lABieaH--rDoVOybhZKd-11" value="扫码登陆" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
+        <mxCell id="lABieaH--rDoVOybhZKd-11" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;注册登陆回调函数&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="120" y="129" as="sourcePoint" />
-            <mxPoint x="260" y="129" as="targetPoint" />
+            <mxPoint x="115" y="154" as="sourcePoint" />
+            <mxPoint x="260" y="154" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -58,79 +58,86 @@
           <mxGeometry x="350" y="80" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lABieaH--rDoVOybhZKd-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFD966;" parent="1" vertex="1">
-          <mxGeometry x="390" y="120" width="10" height="220" as="geometry" />
+          <mxGeometry x="390" y="145" width="10" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="lABieaH--rDoVOybhZKd-16" value="获取二维码" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
+        <mxCell id="lABieaH--rDoVOybhZKd-16" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;获取二维码&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="131" as="sourcePoint" />
-            <mxPoint x="390" y="130" as="targetPoint" />
+            <mxPoint x="270" y="156" as="sourcePoint" />
+            <mxPoint x="390" y="155" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lABieaH--rDoVOybhZKd-17" value="返回二维码" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
+        <mxCell id="lABieaH--rDoVOybhZKd-17" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;返回二维码&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry x="0.0001" relative="1" as="geometry">
-            <mxPoint x="390" y="160" as="sourcePoint" />
-            <mxPoint x="270" y="161" as="targetPoint" />
+            <mxPoint x="390" y="185" as="sourcePoint" />
+            <mxPoint x="270" y="186" as="targetPoint" />
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lABieaH--rDoVOybhZKd-18" value="将二维码打印至控制台" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;entryX=1.4;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="lABieaH--rDoVOybhZKd-7" edge="1">
+        <mxCell id="lABieaH--rDoVOybhZKd-18" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;将二维码打印至控制台&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry x="0.0074" relative="1" as="geometry">
-            <mxPoint x="260" y="160" as="sourcePoint" />
-            <mxPoint x="120" y="160" as="targetPoint" />
+            <mxPoint x="260" y="185" as="sourcePoint" />
+            <mxPoint x="115" y="185" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lABieaH--rDoVOybhZKd-20" value="&lt;font color=&quot;#000000&quot;&gt;chatGPT&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="470" y="80" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="lABieaH--rDoVOybhZKd-21" value="注册消息回调函数" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
+        <mxCell id="lABieaH--rDoVOybhZKd-21" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;注册消息回调函数&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="120" y="220" as="sourcePoint" />
-            <mxPoint x="260" y="220" as="targetPoint" />
+            <mxPoint x="120" y="245" as="sourcePoint" />
+            <mxPoint x="260" y="245" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lABieaH--rDoVOybhZKd-22" value="轮询获取信息" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
+        <mxCell id="lABieaH--rDoVOybhZKd-22" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;轮询获取信息&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry x="0.0001" relative="1" as="geometry">
-            <mxPoint x="270" y="201" as="sourcePoint" />
-            <mxPoint x="390" y="200" as="targetPoint" />
+            <mxPoint x="270" y="226" as="sourcePoint" />
+            <mxPoint x="390" y="225" as="targetPoint" />
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lABieaH--rDoVOybhZKd-23" value="返回信息" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
+        <mxCell id="lABieaH--rDoVOybhZKd-23" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;返回信息&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry x="0.0001" y="1" relative="1" as="geometry">
-            <mxPoint x="390" y="229" as="sourcePoint" />
-            <mxPoint x="270" y="230" as="targetPoint" />
+            <mxPoint x="390" y="254" as="sourcePoint" />
+            <mxPoint x="270" y="255" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lABieaH--rDoVOybhZKd-25" value="将消息发送给chatGPT" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
+        <mxCell id="lABieaH--rDoVOybhZKd-25" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;将消息发送给chatGPT&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="260" as="sourcePoint" />
-            <mxPoint x="500" y="260" as="targetPoint" />
+            <mxPoint x="280" y="285" as="sourcePoint" />
+            <mxPoint x="500" y="285" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lABieaH--rDoVOybhZKd-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFD966;" parent="1" vertex="1">
-          <mxGeometry x="510" y="120" width="10" height="200" as="geometry" />
+          <mxGeometry x="510" y="145" width="10" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="lABieaH--rDoVOybhZKd-27" value="返回AI答复" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
+        <mxCell id="lABieaH--rDoVOybhZKd-27" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;返回AI答复&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="500" y="290" as="sourcePoint" />
-            <mxPoint x="280" y="290" as="targetPoint" />
+            <mxPoint x="500" y="315" as="sourcePoint" />
+            <mxPoint x="280" y="315" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lABieaH--rDoVOybhZKd-28" value="将AI信息发送给用户" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
+        <mxCell id="lABieaH--rDoVOybhZKd-28" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;将AI信息发送给用户&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry y="1" relative="1" as="geometry">
-            <mxPoint x="270" y="321" as="sourcePoint" />
-            <mxPoint x="390" y="320" as="targetPoint" />
+            <mxPoint x="270" y="346" as="sourcePoint" />
+            <mxPoint x="390" y="345" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lABieaH--rDoVOybhZKd-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="60" y="370" width="500" height="20" as="geometry" />
+          <mxGeometry x="60" y="395" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v8zsSPS--b8KBBto4APV-1" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;初始化bot对象&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="128" as="sourcePoint" />
+            <mxPoint x="257" y="128" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
